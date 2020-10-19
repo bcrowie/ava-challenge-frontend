@@ -1,0 +1,19 @@
+.create {
+  background-color: white;
+  border: solid 2px rgb(94, 150, 255);
+  border-radius: 5px;
+  padding: 1rem;
+  position: absolute;
+  right: 0;
+  top: 65px;
+
+  .input {
+    display: flex;
+    flex-direction: column;
+  }
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+}
